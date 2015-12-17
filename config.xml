@@ -1,0 +1,12 @@
+<config>
+  <collect v="false"/> <!-- This makes it a CS -->
+  <!-- <collect-allow> -->
+    <!-- 555.55.0.0/16 --> <!-- Replace with relevant IP address range(s) -->
+  <!-- </collect-allow> -->
+  <contact v="sunetid@stanford.edu"/> <!-- Replace with CS manager's email-->
+  <server-ip v="555.55.555.55"/> <!-- Replace with CS's numerical IP address -->
+  <max-connect-time v="7200"/> <!-- Sets max connection time -->
+  <web-allow>
+    127.0.0.1  <!-- Replace with IP address of computer(s) to be granted web access -->
+  </web-allow>
+</config>
